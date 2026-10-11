@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RIHAN ALI // AI & SYSTEMS ENGINEER</title>
+
+  <!-- External Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800;900&family=Rajdhani:wght@500;600;700&family=JetBrains+Mono:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Link to External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Dynamic Cursor -->
+  <div class="cursor-outer" id="cursor-outer"></div>
+  <div class="cursor-dot" id="cursor-dot"></div>
+
+  <!-- Background Cyber Grid -->
+  <div class="cyber-grid"></div>
+  <div class="ambient-glow"></div>
+
+  <!-- Top Navigation -->
+  <nav>
+    <div class="logo">
+      RIHAN<span>//</span>AI
+    </div>
+
+    <div class="nav-status">
+      <span class="status-dot"></span>
+      SYSTEM ONLINE // PORT: 8080
+    </div>
+
+    <ul>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#terminal">TERMINAL</a></li>
+      <li><a href="#skills">SKILLS</a></li>
+      <li><a href="#workbench">LAB_SIM</a></li>
+      <li><a href="#projects">PROJECTS</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="section-bg-fullscreen"></div>
+    <div class="section-bg-overlay"></div>
+
+    <div class="hero-content">
+      <div class="system-pill">
+        <i class="fa-solid fa-microchip"></i> B.TECH CSE (AI &amp; ML) // UNDERGRADUATE
+      </div>
+
+      <!-- High-Impact Cyber Glitch Name -->
+      <h1>
+        <span class="name">RIHAN</span>
+        <span class="surname">ALI</span>
+      </h1>
+
+      <h2>FUTURE AI SYSTEMS &amp; ROBOTICS ENGINEER</h2>
+
+      <!-- Powerful AI/ML Statement -->
+      <p class="hero-description">
+        Architecting autonomous neural pipelines, low-latency machine intelligence, and high-precision edge computing systems — converting complex mathematical heuristics into self-governing hardware ecosystems.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary" onclick="playSFX(750, 0.15)">
+          EXPLORE PROJECTS <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <a href="#contact" class="btn btn-secondary" onclick="playSFX(550, 0.15)">
+          LET'S CONNECT
+        </a>
+      </div>
+    </div>
+
+    <!-- DOUBLE-LAYER PHOTO ZONE (BADA BACKGROUND CIRCLE + CHOTA CENTER PHOTO) -->
+    <div class="ai-zone">
+      <!-- 1. BADA BACKGROUND CIRCLE -->
+      <div class="ai-zone-circle-bg"></div>
+
+      <!-- 2. GYROSCOPIC HUD RINGS -->
+      <div class="ring one"></div>
+      <div class="ring two"></div>
+      <div class="ring three"></div>
+
+      <!-- 3. CHOTA CENTER FOREGROUND PHOTO -->
+      <div class="profile-holo-wrapper" onclick="playSFX(900, 0.3)">
+        <div class="profile-inner-frame">
+          <img src="photo.png" alt="Rihan Ali - AI & Systems Engineer" class="profile-photo">
+        </div>
+        
+        <!-- OPERATIVE BADGE WITH ROBO COMPANION -->
+        <div class="hud-badge-bottom">
+          <!-- Patrolling Mini Robot -->
+          <div class="mini-robo">
+            <div class="robo-antenna"></div>
+            <div class="robo-head">
+              <div class="robo-eye"></div>
+            </div>
+            <div class="robo-thruster">
+              <div class="r-foot left"></div>
+              <div class="r-foot right"></div>
+            </div>
+          </div>
+
+          <i class="fa-solid fa-shield-halved" style="color: var(--cyan); font-size: 11px;"></i> OPERATIVE: RIHAN Ali
+        </div>
+      </div>
+
+      <div class="hud-chip one">IDENTITY: VERIFIED</div>
+      <div class="hud-chip two">STATUS // ACTIVE</div>
+      <div class="hud-chip three">AI &amp; EMBEDDED SYS</div>
+    </div>
+  </section>
+
+  <!-- About Section (With Themed Photo Background) -->
+  <section id="about" class="reveal">
+    <div class="section-bg-fullscreen"></div>
+    <div class="section-bg-overlay"></div>
+
+    <div class="section-header">
+      <div class="section-number">01 // IDENTITY</div>
+      <h2 class="section-title">WHO <span>AM I?</span></h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="panel">
+        <div class="panel-title">OPERATIVE PROFILE</div>
+        <div class="data-row"><span>FULL NAME</span><span>Rihan Ali</span></div>
+        <div class="data-row"><span>DISCIPLINE</span><span>B.Tech CSE (AI &amp; ML)</span></div>
+        <div class="data-row"><span>INSTITUTION</span><span>KIET Deemed to be University</span></div>
+        <div class="data-row"><span>CORE FOCUS</span><span>C++ DSA &bull; Machine Learning &bull; IoT</span></div>
+        <div class="data-row"><span>STATUS</span><span>Active Undergraduate</span></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">MISSION DIRECTIVE</div>
+        <p style="line-height: 1.8; color: #d7dced;">
+          I am passionate about breaking down complex algorithmic problems into clean, optimized code while building tangible smart prototypes using sensors and microcontrollers.
+          <br><br>
+          Whether it is optimizing C++ arrays, training predictive regression models in Python, or simulating smart automated circuits in Tinkercad, I aim to create real-world impact.
+        </p>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats">
+      <div class="stat">
+        <h3>01</h3>
+        <p>AI/ML JOURNEY</p>
+      </div>
+      <div class="stat">
+        <h3>03+</h3>
+        <p>LANGUAGES</p>
+      </div>
+      <div class="stat">
+        <h3>04+</h3>
+        <p>PROJECTS</p>
+      </div>
+      <div class="stat">
+        <h3>&infin;</h3>
+        <p>LEARNING</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Terminal Section -->
+  <section id="terminal" class="reveal">
+    <div class="section-bg-fullscreen"></div>
+    <div class="section-bg-overlay"></div>
+
+    <div class="section-header">
+      <div class="section-number">02 // SHELL</div>
+      <h2 class="section-title">INTERACTIVE <span>CONSOLE</span></h2>
+    </div>
+
+    <div class="terminal-container">
+      <div class="terminal-top">
+        <div class="term-dots">
+          <div class="tdot red"></div>
+          <div class="tdot yellow"></div>
+          <div class="tdot green"></div>
+        </div>
+        <span>rihan@workstation: ~/portfolio</span>
+        <span style="color: var(--cyan);">BASH</span>
+      </div>
+
+      <div class="terminal-body" id="term-body">
+        <div>Type <span style="color:var(--cyan);">'help'</span> for instructions or try <span style="color:var(--cyan);">'skills'</span>, <span style="color:var(--cyan);">'projects'</span>, <span style="color:var(--cyan);">'clear'</span>.</div>
+        <div class="term-input-row">
+          <span style="color: var(--green);">guest@rihan:~$</span>
+          <input type="text" class="term-cmd" id="term-input" autocomplete="off" spellcheck="false" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="reveal">
+    <div class="section-bg-fullscreen"></div>
+    <div class="section-bg-overlay"></div>
+
+    <div class="section-header">
+      <div class="section-number">03 // ABILITIES</div>
+      <h2 class="section-title">POWER <span>LEVELS</span></h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill" onclick="playSFX(650, 0.1)">
+        <div class="skill-top">
+          <span class="skill-name"><i class="fa-solid fa-code" style="color:var(--cyan); margin-right:6px;"></i> C++ (CORE &amp; STL)</span>
+          <span class="skill-percent">80%</span>
+        </div>
+        <div class="bar"><span style="width:80%"></span></div>
+      </div>
+
+      <div class="skill" onclick="playSFX(700, 0.1)">
+        <div class="skill-top">
+          <span class="skill-name"><i class="fa-brands fa-python" style="color:var(--purple); margin-right:6px;"></i> PYTHON</span>
+          <span class="skill-percent">70%</span>
+        </div>
+        <div class="bar"><span style="width:70%"></span></div>
+      </div>
+
+      <div class="skill" onclick="playSFX(750, 0.1)">
+        <div class="skill-top">
+          <span class="skill-name"><i class="fa-solid fa-brain" style="color:var(--pink); margin-right:6px;"></i> AI &amp; MACHINE LEARNING</span>
+          <span class="skill-percent">60%</span>
+        </div>
+        <div class="bar"><span style="width:60%"></span></div>
+      </div>
+
+      <div class="skill" onclick="playSFX(800, 0.1)">
+        <div class="skill-top">
+          <span class="skill-name"><i class="fa-solid fa-microchip" style="color:var(--cyan); margin-right:6px;"></i> ARDUINO &amp; SENSORS</span>
+          <span class="skill-percent">75%</span>
+        </div>
+        <div class="bar"><span style="width:75%"></span></div>
+      </div>
+
+      <div class="skill" onclick="playSFX(850, 0.1)">
+        <div class="skill-top">
+          <span class="skill-name"><i class="fa-solid fa-network-wired" style="color:var(--green); margin-right:6px;"></i> TINKERCAD SIMULATION</span>
+          <span class="skill-percent">85%</span>
+        </div>
+        <div class="bar"><span style="width:85%"></span></div>
+      </div>
+
+      <div class="skill" onclick="playSFX(900, 0.1)">
+        <div class="skill-top">
+          <span class="skill-name"><i class="fa-solid fa-layer-group" style="color:var(--purple); margin-right:6px;"></i> DATA STRUCTURES (DSA)</span>
+          <span class="skill-percent">70%</span>
+        </div>
+        <div class="bar"><span style="width:70%"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hardware Lab Workbench Simulator -->
+  <section id="workbench" class="reveal">
+    <div class="section-bg-fullscreen"></div>
+    <div class="section-bg-overlay"></div>
+
+    <div class="section-header">
+      <div class="section-number">04 // SIMULATION</div>
+      <h2 class="section-title">HARDWARE <span>WORKBENCH</span></h2>
+    </div>
+
+    <div class="lab-grid">
+      <!-- Dustbin Simulator -->
+      <div class="panel">
+        <div class="panel-title">ARDUINO ULTRASONIC DUSTBIN SIMULATOR</div>
+        <p style="font-size: 13px; color: var(--muted); margin-bottom: 10px;">
+          Hover or tap the probe button to simulate HC-SR04 sonar detection and trigger the SG90 servo lid opening:
+        </p>
+
+        <div class="stage-chassis">
+          <div class="trigger-probe" onclick="playSFX(800, 0.15)">
+            👋 TRIGGER HC-SR04 SONAR PROBE
+          </div>
+          <div class="sonar-beam"></div>
+          <div class="bin-body">
+            <div class="bin-lid"></div>
+          </div>
+        </div>
+
+        <div style="font-family: var(--font-mono); font-size: 11px; color: var(--cyan);">
+          STATUS: Sonar pulse distance &lt; 15cm &rarr; SG90 Servo PWM 75&deg; Active
+        </div>
+      </div>
+
+      <!-- Water Level Simulator -->
+      <div class="panel">
+        <div class="panel-title">TINKERCAD WATER LEVEL SENSOR</div>
+        <p style="font-size: 13px; color: var(--muted); margin-bottom: 10px;">
+          Adjust the fluid level to test analog sensor threshold logic states:
+        </p>
+
+        <div class="stage-chassis" style="justify-content:center; align-items:center; padding-bottom:0;">
+          <div style="width:85px; height:120px; border:2px solid var(--cyan); border-radius:0 0 8px 8px; position:relative; overflow:hidden; display:flex; align-items:flex-end;">
+            <div id="water-bar" style="width:100%; height:40%; background:linear-gradient(180deg, var(--cyan), #0055ff); box-shadow:0 0 15px var(--cyan); transition: height 0.5s ease;"></div>
+          </div>
+        </div>
+
+        <div style="display:flex; gap:10px;">
+          <button class="btn btn-secondary" style="flex:1; justify-content:center; padding:8px;" onclick="setWater(20)">20% (LOW)</button>
+          <button class="btn btn-secondary" style="flex:1; justify-content:center; padding:8px;" onclick="setWater(60)">60% (MID)</button>
+          <button class="btn btn-secondary" style="flex:1; justify-content:center; padding:8px;" onclick="setWater(95)">95% (HIGH)</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="reveal">
+    <div class="section-bg-fullscreen"></div>
+    <div class="section-bg-overlay"></div>
+
+    <div class="section-header">
+      <div class="section-number">05 // MISSIONS</div>
+      <h2 class="section-title">SELECTED <span>PROJECTS</span></h2>
+    </div>
+
+    <div class="project-grid">
+      <!-- Project 1 -->
+      <div class="project">
+        <div class="project-number">01</div>
+        <div class="project-icon"><i class="fa-solid fa-trash-can"></i></div>
+        <h3>SMART ULTRASONIC DUSTBIN</h3>
+        <p>A contactless automated hygiene system designed with Arduino Uno, HC-SR04 ultrasonic echo detection, and servo motor lid actuation.</p>
+        <div>
+          <div class="tags">
+            <span>ARDUINO</span>
+            <span>C++</span>
+            <span>HC-SR04</span>
+            <span>SERVO</span>
+          </div>
+          <a href="#" class="project-link" onclick="playSFX(600, 0.1)">VIEW DETAILS <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project">
+        <div class="project-number">02</div>
+        <div class="project-icon"><i class="fa-solid fa-water"></i></div>
+        <h3>WATER LEVEL DETECTOR</h3>
+        <p>Prototyped and simulated in Autodesk Tinkercad using multi-level logic probes to prevent motor dry run damage in automated storage tanks.</p>
+        <div>
+          <div class="tags">
+            <span>TINKERCAD</span>
+            <span>CIRCUIT</span>
+            <span>SENSORS</span>
+          </div>
+          <a href="#" class="project-link" onclick="playSFX(600, 0.1)">VIEW SCHEMATIC <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project">
+        <div class="project-number">03</div>
+        <div class="project-icon"><i class="fa-solid fa-laptop-code"></i></div>
+        <h3>C++ ALGORITHM REPOSITORY</h3>
+        <p>Optimized implementations of sorting heuristics, matrix traversals, and dynamic array algorithms with spatial complexity bounds.</p>
+        <div>
+          <div class="tags">
+            <span>C++17</span>
+            <span>DSA</span>
+            <span>ALGORITHMS</span>
+          </div>
+          <a href="#" class="project-link" onclick="playSFX(600, 0.1)">VIEW REPO <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Timeline -->
+  <section id="education" class="reveal">
+    <div class="section-bg-fullscreen"></div>
+    <div class="section-bg-overlay"></div>
+
+    <div class="section-header">
+      <div class="section-number">06 // JOURNEY</div>
+      <h2 class="section-title">MY <span>TIMELINE</span></h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-year">PRESENT // UNDERGRADUATE</div>
+        <h3>B.TECH — CSE (AI &amp; MACHINE LEARNING)</h3>
+        <p>Currently pursuing Bachelor of Technology at KIET Deemed to be University. Focusing on foundational machine learning, computational mathematics, and software design.</p>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-year">FOUNDATION PHASE</div>
+        <h3>SYSTEMS &amp; ALGORITHM LOGIC</h3>
+        <p>Practicing core C++ programming, arrays, memory pointers, pattern sorting, and hardware circuit prototyping with microcontrollers.</p>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-year">2026 // COMPLETED</div>
+        <h3>SENIOR SECONDARY CERTIFICATION (CLASS XII)</h3>
+        <p>Built a strong base in Physics, Chemistry, and Mathematics (PCM) providing analytical thinking for engineering problems.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact reveal" id="contact">
+    <div class="section-bg-fullscreen"></div>
+    <div class="section-bg-overlay"></div>
+
+    <div class="section-number">07 // CONNECTION</div>
+    <h2 class="section-title">LET'S BUILD THE <span>FUTURE</span></h2>
+    <p style="color:var(--muted); max-width:550px; margin: 15px auto 25px; position: relative; z-index: 2;">
+      Open to discussions regarding AI/ML experiments, competitive C++ challenges, or embedded hardware projects.
+    </p>
+
+    <div class="contact-box">
+      <a href="mailto:rihan@example.com" class="btn btn-primary" onclick="playSFX(900, 0.2)">
+        <i class="fa-solid fa-envelope"></i> EMAIL ME
+      </a>
+      <a href="https://github.com" target="_blank" class="btn btn-secondary">
+        <i class="fa-brands fa-github"></i> GITHUB
+      </a>
+      <a href="https://linkedin.com" target="_blank" class="btn btn-secondary">
+        <i class="fa-brands fa-linkedin"></i> LINKEDIN
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div>RIHAN ALI // B.TECH CSE (AI &amp; ML)</div>
+    <div><span>SYSTEM STATUS: OPTIMAL</span></div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    /* =========================================================
+       CUSTOM CURSOR
+    ========================================================= */
+    const dot = document.getElementById('cursor-dot');
+    const outer = document.getElementById('cursor-outer');
+
+    document.addEventListener('mousemove', (e) => {
+      dot.style.left = e.clientX + 'px';
+      dot.style.top = e.clientY + 'px';
+      outer.style.left = e.clientX + 'px';
+      outer.style.top = e.clientY + 'px';
+    });
+
+    document.querySelectorAll('a, button, .skill, .project, .profile-holo-wrapper').forEach(el => {
+      el.addEventListener('mouseenter', () => {
+        outer.style.width = '45px';
+        outer.style.height = '45px';
+        outer.style.borderColor = 'var(--purple)';
+      });
+      el.addEventListener('mouseleave', () => {
+        outer.style.width = '28px';
+        outer.style.height = '28px';
+        outer.style.borderColor = 'var(--cyan)';
+      });
+    });
+
+    /* =========================================================
+       WEB AUDIO SYNTHESIZER (NO EXTERNAL AUDIO FILES)
+    ========================================================= */
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    let audioCtx = null;
+
+    function playSFX(freq, duration) {
+      if (!audioCtx) audioCtx = new AudioCtx();
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+
+      osc.type = 'sawtooth';
+      osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(freq * 0.3, audioCtx.currentTime + duration);
+
+      gain.gain.setValueAtTime(0.08, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + duration);
+
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      osc.start();
+      osc.stop(audioCtx.currentTime + duration);
+    }
+
+    /* =========================================================
+       WORKING INTERACTIVE TERMINAL
+    ========================================================= */
+    const termInput = document.getElementById('term-input');
+    const termBody = document.getElementById('term-body');
+
+    const commands = {
+      help: "Available commands: <span style='color:var(--cyan);'>skills</span>, <span style='color:var(--cyan);'>projects</span>, <span style='color:var(--cyan);'>about</span>, <span style='color:var(--cyan);'>contact</span>, <span style='color:var(--cyan);'>clear</span>",
+      skills: "&bull; Languages: C++, Python<br>&bull; AI/ML: Neural Foundations, Model Regression<br>&bull; Hardware: Arduino Uno, Tinkercad Simulations, Ultrasonic &amp; Servo Integration",
+      projects: "1. Smart Ultrasonic Automated Waste Bin (Arduino)<br>2. Water Level Sensor Circuit (Tinkercad)<br>3. C++ Algorithms Suite",
+      about: "Rihan Ali &mdash; B.Tech CSE (AI &amp; ML) student at KIET Deemed to be University.",
+      contact: "Direct Email: <a href='mailto:rihan@example.com' style='color:var(--cyan);'>rihan@example.com</a>"
+    };
+
+    termInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        const val = termInput.value.trim().toLowerCase();
+        termInput.value = '';
+        if (!val) return;
+
+        if (val === 'clear') {
+          termBody.innerHTML = `
+            <div class="term-input-row">
+              <span style="color: var(--green);">guest@rihan:~$</span>
+              <input type="text" class="term-cmd" id="term-input" autocomplete="off" spellcheck="false" />
+            </div>`;
+          document.getElementById('term-input').addEventListener('keydown', arguments.callee);
+          document.getElementById('term-input').focus();
+          return;
+        }
+
+        const out = commands[val] || `zsh: command not found: ${val}. Type <span style="color:var(--cyan);">'help'</span> for instructions.`;
+        const line = document.createElement('div');
+        line.style.margin = '6px 0';
+        line.innerHTML = `<span style="color:var(--green);">guest@rihan:~$</span> ${val}<br>${out}`;
+
+        termInput.parentElement.before(line);
+        termBody.scrollTop = termBody.scrollHeight;
+        playSFX(650, 0.08);
+      }
+    });
+
+    /* =========================================================
+       WATER LEVEL SENSOR SIMULATOR
+    ========================================================= */
+    function setWater(percent) {
+      document.getElementById('water-bar').style.height = percent + '%';
+      playSFX(500 + percent * 3, 0.1);
+    }
+
+    /* =========================================================
+       SCROLL REVEAL OBSERVER
+    ========================================================= */
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    reveals.forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
