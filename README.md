@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio repository! This space showcases my technical journey, practical development projects, and problem-solving skills in one place.
 
-🔗 **Live Preview:** [Click Here to View Live Website](https://rihanali-dev.github.io/Portfolio..-/)
+🔗 **Live Preview:** [Click Here to View Live Website](my-portfolio-flame-eta-17.vercel.app)
 
 ---
 
